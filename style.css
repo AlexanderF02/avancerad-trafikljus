@@ -1,0 +1,39 @@
+/* Basic styles for traffic light container */
+.traffic-light {
+    width: 100px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  /* Styles for individual lights */
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #333; /* Default color (off state) */
+    opacity: 0.3;
+  }
+  
+  /* Specific color classes */
+  .red {
+    background-color: red;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .green {
+    background-color: green;
+  }
+  
+  /* Active state for lights when they are on */
+  .active {
+    opacity: 1;
+  }
+  
